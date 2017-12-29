@@ -1,5 +1,5 @@
 function getTriangleArea (a, h) {
-	if ((a > 0) || (h > 0)) {
+	if ((a > 0) & (h > 0)) {
 		return ((a * h) / 2);
 	} else {
 		return 'Nieprawidłowe dane';
@@ -13,8 +13,6 @@ var triangle2Area = getTriangleArea(5, 3);
 var triangle3Area = getTriangleArea(15, 4);
 
 console.log(triangle1Area, triangle2Area, triangle3Area);
-
-
 
 
 
